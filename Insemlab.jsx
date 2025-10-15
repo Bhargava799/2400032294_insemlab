@@ -14,10 +14,10 @@ const Insemlab = () => {
   }, []);
 
   const student = {
-    name: "John Doe",
-    id: "ST12345",
+    name: "Bhagi",
+    id: "32294",
     course: "B.Tech CSE",
-    email: "john@example.com",
+    email: "bhagi@example.com",
   };
 
   const containerStyle = {
@@ -25,7 +25,6 @@ const Insemlab = () => {
     flexDirection: isMobile ? "column" : "row",
     alignItems: isMobile ? "flex-start" : "center",
     justifyContent: "center",
-    gap: "16px",
     padding: "20px",
     border: "1px solid #ccc",
     borderRadius: "8px",
@@ -43,7 +42,7 @@ const Insemlab = () => {
   return (
     <div style={containerStyle}>
       <div>
-        <span style={labelStyle}>Name:</span> {student.name}
+        <span style={labelStyle}>Name:</span> {student.name}&nbsp;&nbsp;
       </div>
       <div>
         <span style={labelStyle}>ID:</span> {student.id}
